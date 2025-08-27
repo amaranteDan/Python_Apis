@@ -1,0 +1,65 @@
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+
+# Virtualenv
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Configurações de IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de build/distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# Testes
+.coverage
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+htmlcov/
+
+# Configurações locais
+*.ini
+*.cfg
+*.local
+*.env
+
+# Banco de dados SQLite
+*.sqlite3
+*.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Cache do mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Cache do pyre type checker
+.pyre/
+
+# Cache do pytype
+.pytype/
+
+# Arquivos do profiling
+.prof
